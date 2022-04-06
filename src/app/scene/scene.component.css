@@ -1,0 +1,96 @@
+canvas{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.example-tree-invisible {
+    display: none;
+    }
+    .example-tree ul,
+    .example-tree li {
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+    }
+    /*
+    * This padding sets alignment of the nested nodes.
+    */
+    .example-tree .mat-nested-tree-node div[role=group] {
+    padding-left: 40px;
+    }
+    /*
+    * Padding for leaf nodes.
+    * Leaf nodes need to have padding so as to align with other non-leaf nodes
+    * under the same parent.
+    */
+    .example-tree div[role=group] > .mat-tree-node {
+    padding-left: 40px;
+    }
+    
+
+.list {
+    max-width: 400px;
+    max-height: 900px;
+    overflow: auto;
+    position: absolute;
+    top: 10px;
+    left: 2px;
+    }
+
+.title{
+    width: 250px;
+}
+
+.note{
+    max-width: 400px;
+    max-height: 900px;
+    overflow: auto;
+    position: absolute;
+    top: 10px;
+    right: 2px;
+}
+
+#hand{
+    cursor: pointer;
+}
+
+.icon{
+    z-index: -1;
+    float: right;
+}
+
+#check_list{
+    font-size: smaller;
+    
+}
+
+
+
+section {
+    display: table;
+    }
+    .example-label {
+    display: table-cell;
+    font-size: 14px;
+    margin-left: 8px;
+    min-width: 120px;
+    }
+    .example-button-row {
+    display: table-cell;
+    width: 490px;
+    }
+    .example-button-row .mat-button-base {
+    margin: 8px 8px 8px 0;
+    }
+    .example-flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+    .example-button-container {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    }
+    

@@ -1,3 +1,12 @@
+# Installation
+
+In the 'models' folder, run `npm i` from the terminal.
+
+## Change the model (only supports gLTF/gLB files)
+
+The default path to store the model: `model\src\assets\model`
+Historical data for model operations exists by default in `src\app\app.component.ts` for demonstration purposes.This data can be modified and deleted.
+
 # Model
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
